@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_devices"
+        android:icon="@android:drawable/stat_sys_data_bluetooth"
+        android:title="@string/nav_devices" />
+
+    <item
+        android:id="@+id/navigation_overview"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="@string/nav_overview" />
+
+    <item
+        android:id="@+id/navigation_configuration"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="@string/nav_configuration" />
+
+    <item
+        android:id="@+id/navigation_logging"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="@string/nav_logging" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="@string/nav_settings" />
+</menu>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmartBMS Utility</string>
+
+    <!-- Navigation -->
+    <string name="nav_devices">Devices</string>
+    <string name="nav_overview">Overview</string>
+    <string name="nav_configuration">Configuration</string>
+    <string name="nav_logging">Logging</string>
+    <string name="nav_gps">GPS</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Devices Screen -->
+    <string name="devices_title">Available Devices</string>
+    <string name="scan_devices">Scan for Devices</string>
+    <string name="stop_scan">Stop Scanning</string>
+    <string name="demo_mode">Demo Mode</string>
+    <string name="no_devices_found">No devices found</string>
+    <string name="scanning">Scanning…</string>
+
+    <!-- Overview Screen -->
+    <string name="voltage">Voltage</string>
+    <string name="current">Current</string>
+    <string name="power">Power</string>
+    <string name="capacity">Capacity</string>
+    <string name="soc">State of Charge</string>
+    <string name="temperature">Temperature</string>
+    <string name="charging">Charging</string>
+    <string name="discharging">Discharging</string>
+    <string name="mos_status">MOS Status</string>
+    <string name="charge_mos">Charge MOS</string>
+    <string name="discharge_mos">Discharge MOS</string>
+
+    <!-- Configuration Screen -->
+    <string name="cell_count">Cell Count</string>
+    <string name="full_voltage">Full Voltage</string>
+    <string name="empty_voltage">Empty Voltage</string>
+    <string name="protection_settings">Protection Settings</string>
+    <string name="save_configuration">Save Configuration</string>
+    <string name="read_configuration">Read Configuration</string>
+
+    <!-- Logging Screen -->
+    <string name="logging_interval">Logging Interval</string>
+    <string name="start_logging">Start Logging</string>
+    <string name="stop_logging">Stop Logging</string>
+    <string name="export_logs">Export Logs</string>
+    <string name="clear_logs">Clear Logs</string>
+
+    <!-- GPS Screen -->
+    <string name="gps_location">Location</string>
+    <string name="gps_speed">Speed</string>
+    <string name="gps_distance">Distance</string>
+    <string name="energy_efficiency">Energy Efficiency</string>
+
+    <!-- Settings Screen -->
+    <string name="temperature_unit">Temperature Unit</string>
+    <string name="distance_unit">Distance Unit</string>
+    <string name="celsius">Celsius</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="kilometers">Kilometers</string>
+    <string name="miles">Miles</string>
+
+    <!-- Permissions -->
+    <string name="permission_bluetooth">Bluetooth permission is required to connect to BMS devices</string>
+    <string name="permission_location">Location permission is required for Bluetooth scanning and GPS tracking</string>
+    <string name="permission_storage">Storage permission is required to save log files</string>
+
+    <!-- Errors -->
+    <string name="error_bluetooth_not_supported">Bluetooth LE is not supported on this device</string>
+    <string name="error_bluetooth_disabled">Please enable Bluetooth</string>
+    <string name="error_connection_failed">Connection failed</string>
+    <string name="error_read_failed">Failed to read data</string>
+    <string name="error_write_failed">Failed to write configuration</string>
+
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+</resources>

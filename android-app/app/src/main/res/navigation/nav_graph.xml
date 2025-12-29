@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_devices">
+
+    <fragment
+        android:id="@+id/navigation_devices"
+        android:name="com.smartbms.utility.ui.devices.DevicesFragment"
+        android:label="@string/nav_devices" />
+
+    <fragment
+        android:id="@+id/navigation_overview"
+        android:name="com.smartbms.utility.ui.overview.OverviewFragment"
+        android:label="@string/nav_overview" />
+
+    <fragment
+        android:id="@+id/navigation_configuration"
+        android:name="com.smartbms.utility.ui.configuration.ConfigurationFragment"
+        android:label="@string/nav_configuration" />
+
+    <fragment
+        android:id="@+id/navigation_logging"
+        android:name="com.smartbms.utility.ui.logging.LoggingFragment"
+        android:label="@string/nav_logging" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.smartbms.utility.ui.settings.SettingsFragment"
+        android:label="@string/nav_settings" />
+
+</navigation>
